@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EF1C8441D148A7F0060BF45 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF1C8421D148A7F0060BF45 /* SWRevealViewController.h */; };
+		6EF1C8441D148A7F0060BF45 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF1C8421D148A7F0060BF45 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF1C8451D148A7F0060BF45 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1C8431D148A7F0060BF45 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6EF1C8371D148A6C0060BF45 /* SWRevealController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWRevealController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF1C8371D148A6C0060BF45 /* SWRevealViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWRevealViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF1C83C1D148A6C0060BF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EF1C8421D148A7F0060BF45 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../SWRevealController/SWRevealViewController.h; sourceTree = "<group>"; };
 		6EF1C8431D148A7F0060BF45 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../SWRevealController/SWRevealViewController.m; sourceTree = "<group>"; };
@@ -32,7 +32,7 @@
 		6EF1C82D1D148A6C0060BF45 = {
 			isa = PBXGroup;
 			children = (
-				6EF1C8391D148A6C0060BF45 /* SWRevealController */,
+				6EF1C8391D148A6C0060BF45 /* SWRevealViewController */,
 				6EF1C8381D148A6C0060BF45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,20 +40,20 @@
 		6EF1C8381D148A6C0060BF45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EF1C8371D148A6C0060BF45 /* SWRevealController.framework */,
+				6EF1C8371D148A6C0060BF45 /* SWRevealViewController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EF1C8391D148A6C0060BF45 /* SWRevealController */ = {
+		6EF1C8391D148A6C0060BF45 /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
 				6EF1C8421D148A7F0060BF45 /* SWRevealViewController.h */,
 				6EF1C8431D148A7F0060BF45 /* SWRevealViewController.m */,
 				6EF1C83C1D148A6C0060BF45 /* Info.plist */,
 			);
-			path = SWRevealController;
-			sourceTree = "<group>";
+			path = SWRevealViewController;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -69,9 +69,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6EF1C8361D148A6C0060BF45 /* SWRevealController */ = {
+		6EF1C8361D148A6C0060BF45 /* SWRevealViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EF1C83F1D148A6C0060BF45 /* Build configuration list for PBXNativeTarget "SWRevealController" */;
+			buildConfigurationList = 6EF1C83F1D148A6C0060BF45 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
 			buildPhases = (
 				6EF1C8321D148A6C0060BF45 /* Sources */,
 				6EF1C8331D148A6C0060BF45 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SWRevealController;
+			name = SWRevealViewController;
 			productName = SWRevealController;
-			productReference = 6EF1C8371D148A6C0060BF45 /* SWRevealController.framework */;
+			productReference = 6EF1C8371D148A6C0060BF45 /* SWRevealViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6EF1C8311D148A6C0060BF45 /* Build configuration list for PBXProject "SWRevealController" */;
+			buildConfigurationList = 6EF1C8311D148A6C0060BF45 /* Build configuration list for PBXProject "SWRevealViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EF1C8361D148A6C0060BF45 /* SWRevealController */,
+				6EF1C8361D148A6C0060BF45 /* SWRevealViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -178,7 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -220,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -233,15 +233,16 @@
 		6EF1C8401D148A6C0060BF45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SWRevealController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SWRevealViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.zuui.SWRevealController.SWRevealController;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SWRevealViewController;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -249,15 +250,16 @@
 		6EF1C8411D148A6C0060BF45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SWRevealController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SWRevealViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.zuui.SWRevealController.SWRevealController;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SWRevealViewController;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -265,7 +267,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EF1C8311D148A6C0060BF45 /* Build configuration list for PBXProject "SWRevealController" */ = {
+		6EF1C8311D148A6C0060BF45 /* Build configuration list for PBXProject "SWRevealViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EF1C83D1D148A6C0060BF45 /* Debug */,
@@ -274,13 +276,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EF1C83F1D148A6C0060BF45 /* Build configuration list for PBXNativeTarget "SWRevealController" */ = {
+		6EF1C83F1D148A6C0060BF45 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EF1C8401D148A6C0060BF45 /* Debug */,
 				6EF1C8411D148A6C0060BF45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

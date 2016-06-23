@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6EF1C8361D148A6C0060BF45"
-               BuildableName = "SWRevealController.framework"
-               BlueprintName = "SWRevealController"
-               ReferencedContainer = "container:SWRevealController.xcodeproj">
+               BuildableName = "SWRevealViewController.framework"
+               BlueprintName = "SWRevealViewController"
+               ReferencedContainer = "container:SWRevealViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EF1C8361D148A6C0060BF45"
-            BuildableName = "SWRevealController.framework"
-            BlueprintName = "SWRevealController"
-            ReferencedContainer = "container:SWRevealController.xcodeproj">
+            BuildableName = "SWRevealViewController.framework"
+            BlueprintName = "SWRevealViewController"
+            ReferencedContainer = "container:SWRevealViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EF1C8361D148A6C0060BF45"
-            BuildableName = "SWRevealController.framework"
-            BlueprintName = "SWRevealController"
-            ReferencedContainer = "container:SWRevealController.xcodeproj">
+            BuildableName = "SWRevealViewController.framework"
+            BlueprintName = "SWRevealViewController"
+            ReferencedContainer = "container:SWRevealViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
